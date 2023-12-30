@@ -8,7 +8,6 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* Wrap your entire application with the Provider */}
     <Provider store={store}>
       <App />
     </Provider>

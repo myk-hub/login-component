@@ -10,14 +10,11 @@ const Login: React.FC = () => {
 
   const handleLogin = async () => {
     try {
-      // Replace 'your_backend_url' with the actual URL of your login endpoint
       const response = await axios.post('http://localhost:7000/login', { email, password });
 
-      // Simulate successful login
       dispatch(login(response.data.username));
     } catch (error) {
       console.error('Login failed:', error);
-      // Handle login failure, e.g., show an error message
     }
   };
 
