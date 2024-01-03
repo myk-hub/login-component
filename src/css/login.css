@@ -1,0 +1,103 @@
+.login-container {
+  width: 85vw;
+  max-width: 647px;
+  margin: 200px;
+  font-family: Noto Sans;
+}
+
+.login-form {
+  width: 400px;
+}
+
+.login-label {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 20px;
+  display: block;
+  color: #46416D;
+  font-family: Noto Sans;
+}
+
+.login-input {
+  width: 80%;
+  height: 48px;
+  border-radius: 4px;
+  gap: 4px;
+  border: 1px solid #7B7B7B;
+  animation-timing-function: ease-out;
+  animation-duration: 300ms;
+  outline: none;
+  padding: 0 20px;
+}
+
+.login-input:focus {
+  border: 1px solid #46416D
+}
+
+.login-button {
+  width: calc(80% + 42px);
+  height: 40px;
+  padding: 8px 12px 8px 12px;
+  border-radius: 4px;
+  background-color: #BAA182;
+  border-color:#BAA182;
+}
+
+.login-welcome-text {
+  width: calc(100% + 20px);
+  font-size: 56px;
+  margin: 40px 0;
+  font-weight: 300;
+  line-height: 64px;
+  letter-spacing: -0.5px;
+  color: #1C1B1F;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.login-recover-password {
+  font-family: Noto Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: center;
+  margin-bottom: 3vh;
+  margin: 2vh 0;
+  padding: 2px;
+  color: #4D4D4D;
+}
+
+.login-recover-password:hover {
+  background: #4D4D4D14;
+  border-radius: 4px;
+}
+
+
+.app-icon {
+  height: 55px;
+}
+
+.error>.login-label {
+  color: #BA1A1A;
+}
+
+.error>.login-input {
+  color: #BA1A1A;
+  border: 1px solid #BA1A1A
+}
+
+.login-error-message {
+  font-family: Noto Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.4000000059604645px;
+  text-align: left;
+  color: #BA1A1A;
+  text-transform: capitalize;
+}
